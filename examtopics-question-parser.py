@@ -1,5 +1,3 @@
-# ExamTopic Answer Parser - script.py - 29/01/2022
-
 # Import required modules
 import re
 import random
