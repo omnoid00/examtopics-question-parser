@@ -1,9 +1,11 @@
 # ExamTopic Answer Parser - script.py - 29/01/2022
 
+# Import required modules
 import re
 import random
 
-raw = open("./raw.txt").read()
+# Open the raw question dump, remove new lines and split-up on the string "Question"
+raw = open("./example.txt").read() 
 raw = raw.replace("\n", "")
 raw = re.split(r"Question+", raw)
 
@@ -41,6 +43,7 @@ random.shuffle(questions)
 numberOfQs = int(input("How many questions would you like to do?: "))
 score = 0
 
+# For each question, print the question number and question.
 for x in range (0, numberOfQs):
     print("\n"*100)
     print("""
@@ -48,11 +51,13 @@ for x in range (0, numberOfQs):
 
 {}\n""".format(x + 1, numberOfQs, questions[x]["number"], questions[x]["body"]))
 
+    # Print each choice
     for choice in questions[x]["choices"]:
         print(choice)
     
     answer = input("\n> ")
 
+    # Display correct answer
     print("\n"*100)
     for choice in questions[x]["choices"]:
         print(choice)
@@ -63,15 +68,18 @@ Correct Answer: {}
 
     userNext = input("\n(Press enter to continiue)")
 
+    # If correct +1 to score
     if answer.upper() == questions[x]["answer"]:
         score += 1
 
+# Did the user pass or fail?
 percent = (score/numberOfQs)*100
-if percent >= 80:
+if percent >= 80: # Passing score = 80%
     status = "PASSED"
 else:
     status = "FAILED"
 
+# Output results
 print("\n"*100)
 print("""
 Score: {}/{}
