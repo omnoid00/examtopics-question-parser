@@ -5,7 +5,7 @@ import re
 import random
 
 # Open the raw question dump, remove new lines and split-up on the string "Question"
-raw = open("./example.txt").read() 
+raw = open("./example-dump.txt").read() 
 raw = raw.replace("\n", "")
 raw = re.split(r"Question+", raw)
 
