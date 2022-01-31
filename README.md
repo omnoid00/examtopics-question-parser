@@ -7,7 +7,7 @@ A python script to parse questions from ExamTopics question dumps. The script tu
 * Random questions from dump each time.
 
 ### Requirements
-* There are no requirements for this script.
+* (Optional) ExamTopics premium subscription
 
 ### Installation
 1. Clone this repository using the command:
