@@ -1,0 +1,62 @@
+Question #1 Topic 1
+
+A UTM is deployed on the external edge of the main corporate office. The office connects to the WAN port of the edge router. The edge router at the main office connects to the remote offices using GRE IPSec tunnels. A network administrator notices that a worm that was not detected by the UTM has spread from the remote sites into the corporate network. The UTM currently has traffic rules applied that should block the port used by the worm. Which of the following steps would MOST likely correct this issue?
+
+    A. Move the UTM onto the LAN side of the network
+    B. Enable TLS inspection on the UTM
+    C. Enable stateful inspection on the UTM
+    D. Configure the UTM to deny encrypted files from being transferred
+
+Correct Answer: C
+Question #2 Topic 1
+
+A technician has racked a new access switch and has run multimode fiber to a new location. After installing an extended-range 10Gb SFP in the core switch, the technician installed a 10Gb SFP in the access switch and connected the port to the new extension with a fiber jumper. However, the link does not display, and the technician cannot see light emitting from the core switch. Which of the following solutions is MOST likely to resolve the problem?
+
+    A. Swap the fiber pairs in one of the SFPs
+    B. Replace the jumpers with single-mode fiber
+    C. Set the correct MTU on the new interface
+    D. Install an optic that matches the fiber type
+
+Correct Answer: B
+Question #3 Topic 1
+
+A network technician has implemented ACLs to limit access to cloud-based file storage. Which of the following security mechanisms has the technician enforced?
+
+    A. DLP
+    B. IDS
+    C. WAF
+    D. WPA
+    E. TPM
+
+Correct Answer: C
+Question #4 Topic 1
+
+A network technician receives a call from a user in the accounting department stating that Internet connectivity has been lost after receiving a new workstation. No other users in accounting are reporting similar issues. The network technician is able to ping the machine from the accounting departmentג€™s router, but is not able to ping the machine from the IT network. Which of the following is MOST likely the cause?
+
+    A. Incorrect default gateway
+    B. Duplicate IP address
+    C. Misconfigured OSPF
+    D. Improper VLAN assignment
+
+Correct Answer: A
+Question #5 Topic 1
+
+A firewall administrator is implementing a rule that directs HTTP traffic to an internal server listening on a non-standard socket. Which of the following types of rules is the administrator implementing?
+
+    A. NAT
+    B. PAT
+    C. STP
+    D. SNAT
+    E. ARP
+
+Correct Answer: B
+Question #6 Topic 1
+
+A technician is installing a new wireless badging system on a hospital network. The requirements of the badging system are for it to have its own SSID and low power levels. The badging system has to cover 99.9% of the hospital. Which of the following is the BEST action to take to meet the system requirements?
+
+    A. Install additional WAPs
+    B. Install external antennas
+    C. Move the WAPs closer to the more populated area
+    D. Change the antenna types
+
+Correct Answer: A
